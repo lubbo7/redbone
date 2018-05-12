@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="icon" href="iconos/icon.png">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> LOL </h1>
+
+    <div class="productos">
+        {{#each albumes}}
+        <div class="album" data-id="{{this._id}}">
+            <button>+</button>
+            <p class="precio">$ {{precio}}</p>
+            <img class="cover" src="imagenes/{{imagen}}" alt="">
+            <h5>{{album}}</h5>
+            <p class="artista">by
+                <span id="nombreArtista">{{artista}}</span>
+            </p>
+            <p class="fecha">released in <span id="fechaLanzamiento"> {{fecha}}</span></p>
+            <p class="puntaje">{{estrellas}}</p>
+        </div>
+        {{/each}}
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+$gris: #333333;
+$verde: #2ea516;
+$blanco: #eeeeee;
+$amarillo: #ffd050;
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+}
+
+::selection {
+  background: $amarillo;
+  /* WebKit/Blink Browsers */
+}
+
+div.productos{
+    margin: auto;
+    padding: auto;
+    vertical-align: min;
+    width: 90%;
+}
+
+div.album{
+    vertical-align: text-top;
+    display: inline-block;
+    width: 24%;
+    padding: 50px;
+}
+
+#nombreArtista{
+    font-weight: 800;
+}
+
+#fechaLanzamiento{
+    font-weight: 900;
+    font-size: 1em;
+}
+
+h5{
+    color: $gris;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+p{
+    color: $gris;
+}
+
+p.artista{
+    font-size: 0.8em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+p.fecha{
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+p.puntaje{
+    font-weight: 900;
+    text-align: right;
+}
+
+p.precio{
+    text-align: right;
+    color: $blanco;
+    font-weight: 600;
+    background: $verde;
+    padding: 2px;
+    margin-left: 60%;
+    border-top-left-radius: 100px;
+}
+
+img.cover {
+    width: 100%;
+    height: auto;
+}
+
+img.cover:hover{
+    height: auto;
+}
+
+button{
+    float: left;
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    font-size: 0.8em;
+    font-weight: 900;
+    font-family: "Quicksand", sans-serif;
+    background-color: #fff;
+    color: $gris;
+    padding: 2px 6px;
+    width: auto;
+    border: none;
+    outline-style: none;
+    transition-duration: 0.5s;
+    border-width: 1.3px;
+    border-color: $gris;
+    border-style: solid;
+}
+
+button:hover{
+    background-color: $gris;
+  color: #f7f7f7;
+}
