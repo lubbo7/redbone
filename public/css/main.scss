@@ -1,73 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
-
 $gris: #333333;
 $verde: #2ea516;
 $blanco: #eeeeee;
 $amarillo: #ffd050;
-
 * {
-  font-family: 'Nunito', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 ::selection {
-  background: $amarillo;
-  /* WebKit/Blink Browsers */
+    background: $amarillo;
+    /* WebKit/Blink Browsers */
 }
 
-div.productos{
+div.productos {
     margin: auto;
     padding: auto;
     vertical-align: min;
     width: 90%;
 }
 
-div.album{
+div.album {
     vertical-align: text-top;
     display: inline-block;
     width: 24%;
     padding: 50px;
 }
 
-#nombreArtista{
+#nombreArtista {
     font-weight: 800;
 }
 
-#fechaLanzamiento{
+#fechaLanzamiento {
     font-weight: 900;
     font-size: 1em;
 }
 
-h5{
+h5 {
     color: $gris;
     font-size: 1.2em;
     font-weight: 900;
 }
 
-p{
+p {
     color: $gris;
 }
 
-p.artista{
+p.artista {
     font-size: 0.8em;
     font-weight: 200;
     font-style: italic;
 }
 
-p.fecha{
+p.fecha {
     text-align: right;
     font-size: 0.8em;
     font-weight: 200;
 }
-p.puntaje{
+
+p.puntaje {
     font-weight: 900;
     text-align: right;
 }
 
-p.precio{
+p.precio {
     text-align: right;
     color: $blanco;
     font-weight: 600;
@@ -82,11 +81,11 @@ img.cover {
     height: auto;
 }
 
-img.cover:hover{
+img.cover:hover {
     height: auto;
 }
 
-button{
+button {
     float: left;
     text-align: center;
     margin: auto;
@@ -106,7 +105,49 @@ button{
     border-style: solid;
 }
 
-button:hover{
+button:hover {
     background-color: $gris;
-  color: #f7f7f7;
+    color: #f7f7f7;
+}
+
+.todoFiltros {
+    color: $gris;
+    list-style: none;
+    a {
+        font-style: none;
+    } //OPCIONES GENERALES
+    ul {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 10px 30px;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        
+        //SB OPCIONES
+
+        ul {
+            display: none;
+        }
+
+        li {
+            padding: 20px;
+            list-style: none;
+            width: 24%;
+        }
+
+        li {
+            padding: 10px;
+            list-style: none;
+            width: 24%;
+           transition: 0.4s;
+        }
+
+        li:hover{
+            border-radius: 100px;
+            background: #333333;
+            color: #eeeeee;
+        }
+    }
 }
