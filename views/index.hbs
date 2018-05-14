@@ -27,27 +27,27 @@
                     <ul class="secundarios">
 
                         <li>
-                            <a href="">
+                            <a href="?precio=0">
                                 0 - 15.000
                             </a>
                         </li>
                         <li>
-                            <a href="?precio=70.000">
+                            <a href="?precio=15">
                                 15.000 - 30.000
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?precio=30">
                                 30.000 - 45.000
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?precio=45">
                                 45.000 - 60.000
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?precio=60">
                                 60.000 - 75.000
                             </a>
                         </li>
@@ -173,7 +173,7 @@
         {{#each albumes}}
         <div class="album" data-id="{{this._id}}">
             <button>+</button>
-            <p class="precio">$ {{precio}}</p>
+            <p class="precio">$ {{precio}}.000</p>
             <img class="cover" src="imagenes/{{imagen}}" alt="">
             <h5>{{album}}</h5>
             <p class="artista">by

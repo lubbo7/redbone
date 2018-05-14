@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     //filtra por precio
     if (req.query.precio) {
         producto.filter({
-            precio: {$lt: parseInt(req.query.precio)*1000+15000, $gte: parseInt(req.query.precio)}});
+            precio: {$lte: parseInt(req.query.precio)+15, $gt: parseInt(req.query.precio)}});
             console.log(req.query.precio);
     }
 
