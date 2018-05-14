@@ -114,40 +114,51 @@ button:hover {
     color: $gris;
     list-style: none;
     a {
-        font-style: none;
+        text-decoration: none;
+        color: #333333;
+        transition: 0.4s;
     } //OPCIONES GENERALES
     ul {
         font-size: 1em;
-        font-weight: 600;
-        padding: 10px 30px;
+        font-weight: 400;
+        letter-spacing: 0.3em;
+        padding: 10px;
         display: flex;
         width: 80%;
         margin: auto;
         text-align: center;
-        
         //SB OPCIONES
-
-        ul {
+        ul.secundarios{
+            transition: 0.4s;
             display: none;
+            position: absolute;
+            list-style: none;
+            width: 19%;
+            background: #fff;
+            color: #333333;
+            margin-top: auto;
+            border-width: 1px;
+            border-color: #333333;
+            border-style: solid;
+            text-transform: none;
         }
-
-        li {
-            padding: 20px;
+        li.principales {
+            padding: 10px 0px;
             list-style: none;
             width: 24%;
-        }
-
-        li {
-            padding: 10px;
+            text-transform: uppercase;
             list-style: none;
-            width: 24%;
-           transition: 0.4s;
+            border-width: 1px;
+            border-color: #fff;
+            border-style: solid;
         }
-
-        li:hover{
-            border-radius: 100px;
-            background: #333333;
-            color: #eeeeee;
+        li:hover {
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            ul.secundarios{
+                display: block;
+                position: absolute;
+            }
         }
     }
 }

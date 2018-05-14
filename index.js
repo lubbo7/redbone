@@ -19,12 +19,13 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
 app.get('/', (req, res) => {
 
     var producto = db.collection('albumes').find();
+    var precioSuma = parseInt(req.query.precio)*1000+15000;
 
     //filtra por precio
     if (req.query.precio) {
         producto.filter({
-            precio: req.query.precio
-        });
+            precio: {$lt: parseInt(req.query.precio)*1000+15000, $gte: parseInt(req.query.precio)}});
+            console.log(req.query.precio);
     }
 
     //filtra por artista
