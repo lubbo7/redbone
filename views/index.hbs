@@ -61,23 +61,29 @@
                     <ul class="secundarios">
 
                         <li>
-                            <a href="">
-                                1 - 2
+                            <a href="?estrellas=1">
+                                1
                             </a>
                         </li>
                         <li>
-                            <a href="">
-                                2 - 3
+                            <a href="?estrellas=2">
+                                2
                             </a>
                         </li>
                         <li>
-                            <a href="">
-                                3 - 4
+                            <a href="?estrellas=3">
+                                3
                             </a>
                         </li>
                         <li>
-                            <a href="">
-                                4 - 5
+                            <a href="?estrellas=4">
+                                4
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="?estrellas=5">
+                                5
                             </a>
                         </li>
                     </ul>
@@ -89,22 +95,22 @@
                     <a href="">Género </a>
                     <ul class="secundarios">
                         <li>
-                            <a href="">
+                            <a href="?genero=Alternative">
                                 Alternative
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?genero=Pop">
                                 Pop
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?genero=Rock">
                                 Rock
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?genero=Indie">
                                 Indie
                             </a>
                         </li>
@@ -117,47 +123,47 @@
                     <a href=""> Año de lanzamiento </a>
                     <ul class="secundarios">
                         <li>
-                            <a href="">
+                            <a href="?fecha=2010">
                                 2010
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2011">
                                 2011
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2012">
                                 2012
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2013">
                                 2013
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2014">
                                 2014
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2015">
                                 2015
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2016">
                                 2016
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2017">
                                 2017
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="?fecha=2018">
                                 2018
                             </a>
                         </li>
@@ -174,15 +180,32 @@
         <div class="album" data-id="{{this._id}}">
             <button>+</button>
             <p class="precio">$ {{precio}}.000</p>
-            <img class="cover" src="imagenes/{{imagen}}" alt="">
-            <h5>{{album}}</h5>
-            <p class="artista">by
-                <span id="nombreArtista">{{artista}}</span>
+            <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
+            <div class="info">
+                <h5>{{album}}</h5>
+                <p class="artista">by
+                    <span id="nombreArtista">{{artista}}</span>
+                </p>
+                <hr>
+                <p class="fecha">released in
+                    <span id="masGrueso"> {{fecha}}</span>
+                </p>
+                <p class="puntaje">
+                    <span id="masDelgado"> Score </span> {{estrellas}}</p>
+                <p class="artista"> Songs
+                    <span id="masGrueso"> {{canciones}} </span>
+                </p>
+                <p class="artista"> Genre
+                    <span id="masGrueso"> {{genero}} </span>
+                </p>
+            </div>
+            {{!-- Descripción --}} {{!--
+            <p class="puntaje">
+                "{{album}} is one of the albums released by Redbone Records, recorded by {{artista}} in {{fecha}}. With 11 songs, mostly
+                {{genero}} music, {{artista}} take us to another level on music. Stream it now on all the platforms and buy
+                it now!"
             </p>
-            <p class="fecha">released in
-                <span id="fechaLanzamiento"> {{fecha}}</span>
-            </p>
-            <p class="puntaje">{{estrellas}}</p>
+            --}}
         </div>
         {{/each}}
     </div>

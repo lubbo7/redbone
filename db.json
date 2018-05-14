@@ -1,0 +1,601 @@
+[{
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af0"
+    },
+    "album": "Electra Heart",
+    "artista": "Marina and the Diamonds",
+    "precio": 68,
+    "estrellas": 5,
+    "fecha": 2015,
+    "genero": "Alternative",
+    "imagen": 1,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af1"
+    },
+    "album": "Dua Lipa",
+    "artista": "Dua Lipa",
+    "precio": 47,
+    "estrellas": 4,
+    "fecha": 2017,
+    "genero": "Indie",
+    "imagen": 2,
+    "canciones": 14
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af2"
+    },
+    "album": "Melodrama",
+    "artista": "Lorde",
+    "precio": 28,
+    "estrellas": 4,
+    "fecha": 2011,
+    "genero": "Indie",
+    "imagen": 3,
+    "canciones": 15
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af3"
+    },
+    "album": "Mind of Mine",
+    "artista": "Zayn",
+    "precio": 13,
+    "estrellas": 3,
+    "fecha": 2016,
+    "genero": "Pop",
+    "imagen": 4,
+    "canciones": 14
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af4"
+    },
+    "album": "hopeless fountain kingdom",
+    "artista": "Halsey",
+    "precio": 28,
+    "estrellas": 4,
+    "fecha": 2016,
+    "genero": "Pop",
+    "imagen": 5,
+    "canciones": 17
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af5"
+    },
+    "album": "Froot",
+    "artista": "Marina and the Diamonds",
+    "precio": 70,
+    "estrellas": 5,
+    "fecha": 2012,
+    "genero": "Pop",
+    "imagen": 6,
+    "canciones": 9
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af6"
+    },
+    "album": "Ctrl",
+    "artista": "SZA",
+    "precio": 38,
+    "estrellas": 1,
+    "fecha": 2012,
+    "genero": "Pop",
+    "imagen": 7,
+    "canciones": 19
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af7"
+    },
+    "album": "Halcyon",
+    "artista": "Ellie Goulding",
+    "precio": 55,
+    "estrellas": 5,
+    "fecha": 2017,
+    "genero": "Pop",
+    "imagen": 8,
+    "canciones": 15
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af8"
+    },
+    "album": "As She Pleases",
+    "artista": "Madison Beer",
+    "precio": 60,
+    "estrellas": 3,
+    "fecha": 2014,
+    "genero": "Rock",
+    "imagen": 9,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000af9"
+    },
+    "album": "Born to Die",
+    "artista": "Lana Del Rey",
+    "precio": 40,
+    "estrellas": 3,
+    "fecha": 2015,
+    "genero": "Alternative",
+    "imagen": 10,
+    "canciones": 17
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000afa"
+    },
+    "album": "Pure Heroine",
+    "artista": "Lorde",
+    "precio": 47,
+    "estrellas": 3,
+    "fecha": 2015,
+    "genero": "Rock",
+    "imagen": 11,
+    "canciones": 9
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000afb"
+    },
+    "album": "DAMN.",
+    "artista": "Kendrick Lamar",
+    "precio": 68,
+    "estrellas": 1,
+    "fecha": 2013,
+    "genero": "Alternative",
+    "imagen": 12,
+    "canciones": 19
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000afc"
+    },
+    "album": "Emotion",
+    "artista": "Carly Rae Jepsen",
+    "precio": 44,
+    "estrellas": 2,
+    "fecha": 2010,
+    "genero": "Pop",
+    "imagen": 13,
+    "canciones": 15
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000afd"
+    },
+    "album": "AM",
+    "artista": "Arctic Monkeys",
+    "precio": 47,
+    "estrellas": 4,
+    "fecha": 2017,
+    "genero": "Indie",
+    "imagen": 14,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000afe"
+    },
+    "album": "Blurryface",
+    "artista": "Twenty One Pilots",
+    "precio": 30,
+    "estrellas": 5,
+    "fecha": 2017,
+    "genero": "Pop",
+    "imagen": 15,
+    "canciones": 17
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000aff"
+    },
+    "album": "Wiped Out!",
+    "artista": "The Neighbourhood",
+    "precio": 17,
+    "estrellas": 4,
+    "fecha": 2015,
+    "genero": "Alternative",
+    "imagen": 16,
+    "canciones": 5
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b00"
+    },
+    "album": "Wonderful Wonderful",
+    "artista": "The Killers",
+    "precio": 44,
+    "estrellas": 2,
+    "fecha": 2011,
+    "genero": "Alternative",
+    "imagen": 17,
+    "canciones": 14
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b01"
+    },
+    "album": "Hello What's Your Name?",
+    "artista": "The Kooks",
+    "precio": 13,
+    "estrellas": 3,
+    "fecha": 2018,
+    "genero": "Pop",
+    "imagen": 18,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b02"
+    },
+    "album": "Cry Baby",
+    "artista": "Melanie Martinez",
+    "precio": 47,
+    "estrellas": 5,
+    "fecha": 2012,
+    "genero": "Rock",
+    "imagen": 19,
+    "canciones": 10
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b03"
+    },
+    "album": "Paradise",
+    "artista": "Lana Del Rey",
+    "precio": 68,
+    "estrellas": 4,
+    "fecha": 2015,
+    "genero": "Pop",
+    "imagen": 20,
+    "canciones": 20
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b04"
+    },
+    "album": "Isolation",
+    "artista": "Kali Uchis",
+    "precio": 15,
+    "estrellas": 4,
+    "fecha": 2012,
+    "genero": "Pop",
+    "imagen": 21,
+    "canciones": 17
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b05"
+    },
+    "album": "TIMELESS",
+    "artista": "MNKYBSNSS",
+    "precio": 72,
+    "estrellas": 5,
+    "fecha": 2010,
+    "genero": "Pop",
+    "imagen": 22,
+    "canciones": 13
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b06"
+    },
+    "album": "The Neighbourhood",
+    "artista": "The Neighbourhood",
+    "precio": 38,
+    "estrellas": 5,
+    "fecha": 2011,
+    "genero": "Rock",
+    "imagen": 23,
+    "canciones": 15
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b07"
+    },
+    "album": "Art Angels",
+    "artista": "Grimes",
+    "precio": 13,
+    "estrellas": 2,
+    "fecha": 2010,
+    "genero": "Rock",
+    "imagen": 24,
+    "canciones": 23
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b08"
+    },
+    "album": "Lady Wood",
+    "artista": "Tove Lo",
+    "precio": 60,
+    "estrellas": 5,
+    "fecha": 2013,
+    "genero": "Rock",
+    "imagen": 25,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b09"
+    },
+    "album": "Invasion of Privacy",
+    "artista": "Cardi B",
+    "precio": 24,
+    "estrellas": 2,
+    "fecha": 2012,
+    "genero": "Pop",
+    "imagen": 26,
+    "canciones": 14
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0a"
+    },
+    "album": "ANTI",
+    "artista": "Rihanna",
+    "precio": 47,
+    "estrellas": 3,
+    "fecha": 2014,
+    "genero": "Indie",
+    "imagen": 27,
+    "canciones": 17
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0b"
+    },
+    "album": "Ultraviolence",
+    "artista": "Lana Del Rey",
+    "precio": 30,
+    "estrellas": 1,
+    "fecha": 2017,
+    "genero": "Alternative",
+    "imagen": 28,
+    "canciones": 8
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0c"
+    },
+    "album": "Flower Boy",
+    "artista": "Tyler The Creator",
+    "precio": 44,
+    "estrellas": 4,
+    "fecha": 2010,
+    "genero": "Indie",
+    "imagen": 29,
+    "canciones": 7
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0d"
+    },
+    "album": "SweetSexySavage",
+    "artista": "Kehlani",
+    "precio": 68,
+    "estrellas": 3,
+    "fecha": 2015,
+    "genero": "Pop",
+    "imagen": 30,
+    "canciones": 10
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0e"
+    },
+    "album": "Por Vida",
+    "artista": "Kali Uchis",
+    "precio": 17,
+    "estrellas": 5,
+    "fecha": 2013,
+    "genero": "Rock",
+    "imagen": 31,
+    "canciones": 14
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b0f"
+    },
+    "album": "BLUE LIPS",
+    "artista": "Tove Lo",
+    "precio": 72,
+    "estrellas": 4,
+    "fecha": 2014,
+    "genero": "Indie",
+    "imagen": 32,
+    "canciones": 6
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b10"
+    },
+    "album": "Built on Glass",
+    "artista": "Chet Faker",
+    "precio": 36,
+    "estrellas": 2,
+    "fecha": 2017,
+    "genero": "Alternative",
+    "imagen": 33,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b11"
+    },
+    "album": "Talk That Talk",
+    "artista": "Rihanna",
+    "precio": 15,
+    "estrellas": 4,
+    "fecha": 2016,
+    "genero": "Indie",
+    "imagen": 34,
+    "canciones": 5
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b12"
+    },
+    "album": "How Big How Blue How Beautiful",
+    "artista": "Florence and the Machine",
+    "precio": 28,
+    "estrellas": 2,
+    "fecha": 2012,
+    "genero": "Pop",
+    "imagen": 35,
+    "canciones": 10
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b13"
+    },
+    "album": "The Thrill Of It All",
+    "artista": "Sam Smith",
+    "precio": 47,
+    "estrellas": 3,
+    "fecha": 2017,
+    "genero": "Indie",
+    "imagen": 36,
+    "canciones": 15
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b14"
+    },
+    "album": "Honeymoon",
+    "artista": "Lana Del Rey",
+    "precio": 32,
+    "estrellas": 4,
+    "fecha": 2015,
+    "genero": "Indie",
+    "imagen": 37,
+    "canciones": 5
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b15"
+    },
+    "album": "Moonlight",
+    "artista": "Ariana Grande",
+    "precio": 50,
+    "estrellas": 5,
+    "fecha": 2012,
+    "genero": "Alternative",
+    "imagen": 38,
+    "canciones": 10
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b16"
+    },
+    "album": "Crawl Space",
+    "artista": "Tei Shi",
+    "precio": 32,
+    "estrellas": 4,
+    "fecha": 2013,
+    "genero": "Indie",
+    "imagen": 39,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b17"
+    },
+    "album": "All My Demons Greeting Me As A Friend",
+    "artista": "Aurora",
+    "precio": 36,
+    "estrellas": 4,
+    "fecha": 2016,
+    "genero": "Indie",
+    "imagen": 40,
+    "canciones": 12
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b18"
+    },
+    "album": "I See You",
+    "artista": "The xx",
+    "precio": 47,
+    "estrellas": 1,
+    "fecha": 2014,
+    "genero": "Rock",
+    "imagen": 41,
+    "canciones": 16
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b19"
+    },
+    "album": "My Dear Melancholy",
+    "artista": "The Weeknd",
+    "precio": 63,
+    "estrellas": 1,
+    "fecha": 2011,
+    "genero": "Alternative",
+    "imagen": 42,
+    "canciones": 5
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1a"
+    },
+    "album": "Evergreen",
+    "artista": "Broods",
+    "precio": 15,
+    "estrellas": 3,
+    "fecha": 2015,
+    "genero": "Alternative",
+    "imagen": 43,
+    "canciones": 12
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1b"
+    },
+    "album": "Ceremonials",
+    "artista": "Florence and the Machine",
+    "precio": 30,
+    "estrellas": 4,
+    "fecha": 2015,
+    "genero": "Rock",
+    "imagen": 44,
+    "canciones": 9
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1c"
+    },
+    "album": "xx",
+    "artista": "The xx",
+    "precio": 55,
+    "estrellas": 5,
+    "fecha": 2015,
+    "genero": "Pop",
+    "imagen": 45,
+    "canciones": 12
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1d"
+    },
+    "album": "MADE BY GOD",
+    "artista": "Die Antwoord",
+    "precio": 44,
+    "estrellas": 2,
+    "fecha": 2014,
+    "genero": "Alternative",
+    "imagen": 46,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1e"
+    },
+    "album": "Beauty Behind The Madness",
+    "artista": "The Weeknd",
+    "precio": 36,
+    "estrellas": 2,
+    "fecha": 2018,
+    "genero": "Pop",
+    "imagen": 47,
+    "canciones": 11
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b1f"
+    },
+    "album": "Vessel",
+    "artista": "Twenty One Pilots",
+    "precio": 72,
+    "estrellas": 5,
+    "fecha": 2014,
+    "genero": "Rock",
+    "imagen": 48,
+    "canciones": 27
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b20"
+    },
+    "album": "Broods - EP",
+    "artista": "Broods",
+    "precio": 28,
+    "estrellas": 1,
+    "fecha": 2015,
+    "genero": "Indie",
+    "imagen": 49,
+    "canciones": 10
+  }, {
+    "_id": {
+      "$oid": "5af948dafc13ae351d000b21"
+    },
+    "album": "Coexits",
+    "artista": "The xx",
+    "precio": 44,
+    "estrellas": 3,
+    "fecha": 2010,
+    "genero": "Rock",
+    "imagen": 50,
+    "canciones": 19
+  }]

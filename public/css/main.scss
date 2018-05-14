@@ -28,14 +28,40 @@ div.album {
     display: inline-block;
     width: 24%;
     padding: 50px;
+    margin-bottom: 0px;
+}
+
+div.info{
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cecece;
+    border-top-style: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0px;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cecece;
+    margin: 1em 0;
+    padding: 0; 
 }
 
 #nombreArtista {
     font-weight: 800;
 }
 
-#fechaLanzamiento {
+#masGrueso {
     font-weight: 900;
+    font-size: 1em;
+}
+
+#masDelgado {
+    font-weight: 200;
     font-size: 1em;
 }
 

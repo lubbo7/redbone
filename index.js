@@ -19,13 +19,17 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
 app.get('/', (req, res) => {
 
     var producto = db.collection('albumes').find();
-    var precioSuma = parseInt(req.query.precio)*1000+15000;
+    var precioSuma = parseInt(req.query.precio) * 1000 + 15000;
 
     //filtra por precio
     if (req.query.precio) {
         producto.filter({
-            precio: {$lte: parseInt(req.query.precio)+15, $gt: parseInt(req.query.precio)}});
-            console.log(req.query.precio);
+            precio: {
+                $lte: parseInt(req.query.precio) + 15,
+                $gt: parseInt(req.query.precio)
+            }
+        });
+        console.log(req.query.precio);
     }
 
     //filtra por artista
@@ -48,7 +52,6 @@ app.get('/', (req, res) => {
             estrellas: parseInt(req.query.estrellas)
         });
     }
-
 
     //filtra por fecha
     if (req.query.fecha) {
