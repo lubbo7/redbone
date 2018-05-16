@@ -23,7 +23,7 @@
                 {{!-- PRECIO --}}
 
                 <li class="principales">
-                    <a href="">Precio</a>
+                    <a href="">Price</a>
                     <ul class="secundarios">
 
                         <li>
@@ -57,7 +57,7 @@
                 {{!-- Estrellas --}}
 
                 <li class="principales">
-                    <a href="">Estrellas</a>
+                    <a href="">Score</a>
                     <ul class="secundarios">
 
                         <li>
@@ -92,7 +92,7 @@
                 {{!-- Género --}}
 
                 <li class="principales">
-                    <a href="">Género </a>
+                    <a href=""> Genre </a>
                     <ul class="secundarios">
                         <li>
                             <a href="?genero=Alternative">
@@ -120,7 +120,7 @@
                 {{!-- Fecha --}}
 
                 <li class="principales">
-                    <a href=""> Año de lanzamiento </a>
+                    <a href=""> Year </a>
                     <ul class="secundarios">
                         <li>
                             <a href="?fecha=2010">
@@ -175,10 +175,14 @@
 
     </section>
 
+    <div class="carro">
+        <p class="carrito">0</p>
+    </div>
+
     <div class="productos">
         {{#each albumes}}
         <div class="album" data-id="{{this._id}}">
-            <button>+</button>
+            <button class="agregar">+</button>
             <p class="precio">$ {{precio}}.000</p>
             <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
             <div class="info">
@@ -209,7 +213,8 @@
         </div>
         {{/each}}
     </div>
-
-</body>
+    <script src='js/cd.js'></script>
+    <script src='js/cliente.js'></script>
+ </body>
 
 </html>
