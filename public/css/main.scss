@@ -31,7 +31,7 @@ div.album {
     margin-bottom: 0px;
 }
 
-div.info{
+div.info {
     padding: 10px;
     border-width: 1px;
     border-style: solid;
@@ -42,13 +42,13 @@ div.info{
     margin-top: 0px;
 }
 
-hr{
+hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #cecece;
     margin: 1em 0;
-    padding: 0; 
+    padding: 0;
 }
 
 #nombreArtista {
@@ -67,6 +67,11 @@ hr{
 #masDelgado {
     font-weight: 200;
     font-size: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 900;
 }
 
 h5 {
@@ -135,7 +140,7 @@ button {
     border-style: solid;
 }
 
-.carrito{
+.carrito {
     position: fixed;
 }
 
@@ -160,9 +165,8 @@ button:hover {
         display: flex;
         width: 80%;
         margin: auto;
-        text-align: center;
-        //SB OPCIONES
-        ul.secundarios{
+        text-align: center; //SB OPCIONES
+        ul.secundarios {
             transition: 0.4s;
             display: none;
             position: absolute;
@@ -189,10 +193,55 @@ button:hover {
         li:hover {
             font-weight: 800;
             letter-spacing: 0.1em;
-            ul.secundarios{
+            ul.secundarios {
                 display: block;
                 position: absolute;
             }
         }
     }
+}
+
+//PRODUCTO SOLO
+.decor {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    z-index: -10;
+    opacity: 0.1;
+    background: #a0a0a0;
+}
+
+#solo {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.productoSolo{
+    align-items: center;
+    align-items: center;
+    margin: auto;
+}
+
+.albumSolo {
+    display: inline-block;
+
+    div.info {
+        width: 30%;
+        margin: auto;
+        border: none;
+    }
+
+    .agregar{
+        text-align: center;
+        margin: 20px 0;
+        align-content: center;
+        align-items: center;
+        float: none;
+    }
+}
+
+.descripcion{
+    font-weight: 200;
 }

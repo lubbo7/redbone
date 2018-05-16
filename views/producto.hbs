@@ -13,26 +13,29 @@
 </head>
 
 <body>
-    <H1>PRODUCTO JIJ</H1>
 
+    {{#each albumes}}
+    <div class="decor">
 
-
-
-
- <div class="carro">
-        <p class="carrito">0</p>
     </div>
+    {{!--
+    <div style="background: url(imagenes/{{imagen}}.jpg) no-repeat center center fixed" class="decorImg"></div> --}}
+    <div class="productoSolo">
 
-    <div class="productos">
-        {{#each albumes}}
-        <div class="album" data-id="{{this._id}}">
-            <button class="agregar">+</button>
-            <p class="precio">$ {{precio}}.000</p>
-            <a href="{{album}}">
-            <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
-            </a>
+        <div class="carro">
+            <p class="carrito">0</p>
+        </div>
+        <div class="albumSolo" data-id="{{this._id}}">
+
             <div class="info">
-                <h5>{{album}}</h5>
+                <p class="precio">$ {{precio}}.000</p>
+                <img class="cover" id="solo" src="imagenes/{{imagen}}.jpg" alt="">
+
+            </div>
+
+            <div class="info">
+
+                <h3>{{album}}</h3>
                 <p class="artista">by
                     <span id="nombreArtista">{{artista}}</span>
                 </p>
@@ -48,23 +51,30 @@
                 <p class="artista"> Genre
                     <span id="masGrueso"> {{genero}} </span>
                 </p>
-            </div>
-            {{!-- Descripción --}} {{!--
-            <p class="puntaje">
-                "{{album}} is one of the albums released by Redbone Records, recorded by {{artista}} in {{fecha}}. With 11 songs, mostly
-                {{genero}} music, {{artista}} take us to another level on music. Stream it now on all the platforms and buy
-                it now!"
-            </p>
-            --}}
-        </div>
-        {{/each}}
-    </div>
 
+                {{!-- Descripción --}}
+                <p class="descripcion">
+                    {{album}} is one of the albums released by Redbone Records, recorded by {{artista}} in {{fecha}}. With 11 songs, mostly {{genero}}
+                    music, {{artista}} take us to another level on music. Stream it now on all the platforms and buy it now!
+                </p>
+            <button class="agregar">Agregar al carrito</button>
+
+            </div>
+
+
+        </div>
+
+
+        {{/each}}
+
+
+
+    </div>
 
 
 
     <script src='js/cd.js'></script>
     <script src='js/cliente.js'></script>
- </body>
+</body>
 
 </html>
