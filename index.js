@@ -16,6 +16,21 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
 
 });
 
+app.get('/:album', (req, res) => {
+
+    var producto = db.collection('albumes').find();
+
+    producto.filter({
+        album: req.params.album
+    });
+
+   producto.toArray((err, result) =>
+        res.render('producto', {
+            albumes: result
+        })
+    )
+});
+
 
 app.get('/', (req, res) => {
 

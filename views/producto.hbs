@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="icon" href="iconos/icon.png">
+
+    <title>Redbone PRODUCT</title>
+</head>
+
+<body>
+    <H1>PRODUCTO JIJ</H1>
+
+
+
+
+
+ <div class="carro">
+        <p class="carrito">0</p>
+    </div>
+
+    <div class="productos">
+        {{#each albumes}}
+        <div class="album" data-id="{{this._id}}">
+            <button class="agregar">+</button>
+            <p class="precio">$ {{precio}}.000</p>
+            <a href="{{album}}">
+            <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
+            </a>
+            <div class="info">
+                <h5>{{album}}</h5>
+                <p class="artista">by
+                    <span id="nombreArtista">{{artista}}</span>
+                </p>
+                <hr>
+                <p class="fecha">released in
+                    <span id="masGrueso"> {{fecha}}</span>
+                </p>
+                <p class="puntaje">
+                    <span id="masDelgado"> Score </span> {{estrellas}}</p>
+                <p class="artista"> Songs
+                    <span id="masGrueso"> {{canciones}} </span>
+                </p>
+                <p class="artista"> Genre
+                    <span id="masGrueso"> {{genero}} </span>
+                </p>
+            </div>
+            {{!-- Descripción --}} {{!--
+            <p class="puntaje">
+                "{{album}} is one of the albums released by Redbone Records, recorded by {{artista}} in {{fecha}}. With 11 songs, mostly
+                {{genero}} music, {{artista}} take us to another level on music. Stream it now on all the platforms and buy
+                it now!"
+            </p>
+            --}}
+        </div>
+        {{/each}}
+    </div>
+
+
+
+
+    <script src='js/cd.js'></script>
+    <script src='js/cliente.js'></script>
+ </body>
+
+</html>
