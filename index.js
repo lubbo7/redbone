@@ -32,6 +32,31 @@ app.get('/:album', (req, res) => {
 });
 
 
+
+
+
+
+app.get('/productosPorIds', (req, res) => {
+    console.log(req.query.ids);
+    var arreglo = req.query.ids.split(',');
+    arreglo = arreglo.map(function (id) {
+        return new ObjectID(id);
+    });
+    var prod = db.collection(dbName)
+        .find({
+            _id: {
+                $in: arreglo
+            }
+        })
+        .toArray((err, result) => {
+            res.send(result);
+        });
+});
+
+
+
+
+
 app.get('/', (req, res) => {
 
     var producto = db.collection('albumes').find();

@@ -6,6 +6,7 @@ document.querySelectorAll('.agregar').forEach(function(button) {
 
         if(arreglo.indexOf(id) >= 0){
             return;
+            localStorage.removeItem('arreglo', JSON.stringify(arreglo));
         }
 
         if(arreglo.indexOf(id) > 0){

@@ -14,7 +14,35 @@
 
 <body>
 
-    <h1> LOL </h1>
+    <div class="cabecera">
+
+        <a href="/">
+            <div class="redboneLogo"></div>
+        </a>
+
+        <p class="decoracion">-</p>
+
+        <div class="enlacesInteres">
+            <ul class="enlaces">
+                <li class="enlaces_item">
+                    <a href="#" class="enlaces_link"> Our artists </a>
+                </li>
+                <li class="enlaces_item">
+                    <a href="#" class="enlaces_link"> About us </a>
+                </li>
+                <li class="enlaces_item">
+                    <a href="#" class="enlaces_link"> Sign with us </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+
     {{!-- MENU PARA FILTROS --}}
     <section class="todoFiltros">
         <div class="filtros">
@@ -185,7 +213,7 @@
             <button class="agregar">+</button>
             <p class="precio">$ {{precio}}.000</p>
             <a href="{{album}}">
-            <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
+                <img class="cover" src="imagenes/{{imagen}}.jpg" alt="">
             </a>
             <div class="info">
                 <h5>{{album}}</h5>
@@ -215,8 +243,13 @@
         </div>
         {{/each}}
     </div>
+
+    <div class="menuIcon" id="menuIcon">
+    </div>
+
+
     <script src='js/cd.js'></script>
     <script src='js/cliente.js'></script>
- </body>
+</body>
 
 </html>
