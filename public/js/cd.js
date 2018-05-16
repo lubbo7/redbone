@@ -8,7 +8,7 @@ document.querySelectorAll('.agregar').forEach(function(button) {
             return;
         }
 
-        if(arreglo.indexOf(id) >= -1){
+        if(arreglo.indexOf(id) > 0){
             button.innerHTML = "-";
         }
 

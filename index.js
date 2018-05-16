@@ -16,6 +16,7 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
 
 });
 
+
 app.get('/', (req, res) => {
 
     var producto = db.collection('albumes').find();
@@ -57,6 +58,14 @@ app.get('/', (req, res) => {
     if (req.query.fecha) {
         producto.filter({
             fecha: parseInt(req.query.fecha)
+        });
+    }
+
+    //VISUALIZACIÓN DEL PRODUCT
+
+    if (req.query.album) {
+        producto.filter({
+            album: req.query.album
         });
     }
 
